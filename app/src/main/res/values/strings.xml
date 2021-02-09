@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">HotelApps</string>
+    <string name="title">Title</string>
+    <string name="desc">Desc</string>
+    <string name="more">More</string>
+    <string name="today">Today, Wednesday</string>
+    <string name="search">Search for Hotel</string>
+
+    <string-array name="title">
+        <item>Baros Maldives</item>
+        <item>Riad Kheirredine</item>
+        <item>Mandapa, A Ritz-Carlton Reserve</item>
+        <item>Komaneka at Tanggayuda </item>
+        <item>Andronis Luxury Suites</item>
+        <item> The Beaumont </item>
+        <item>J.K. Place Roma</item>
+        <item>Hotel The Serras </item>
+        <item>The Oberoi Vanyavilas</item>
+        <item>La Reserve Paris - Hotel and Spa</item>
+
+    </string-array>
+
+
+    <string-array name="address">
+        <item>Baros Island, Maldives</item>
+        <item>Marrakech, Maroko</item>
+        <item>Ubud, Indonesia</item>
+        <item>Ubud, Indonesia</item>
+        <item>Oia, Yunani</item>
+        <item>London, United Kingdom</item>
+        <item>Roma, Italia</item>
+        <item>Barcelona, Spanyol</item>
+        <item>Sawai Madhopur, India</item>
+        <item>Paris, Perancis</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>Kemewahan berlibur di Maldives belum lengkap rasanya jika belum menginap di pinggir lautan berwana biru muda ini. Untuk membayar keindahan sekaligus kemewahan itu, kamu perlu merogoh kocek sebesar Rp 7 jutaan.</item>
+        <item>Ingin liburan lebih mewah di Maroho, ke hotel bintang 5 ini saja. Kamu cukup mengeluarkan Rp 2,9 jutaan untuk menginap di sini semalam. Nuansa hotelnya kental dengan keunikan Maroko.</item>
+        <item>Di Ubud, Bali, ada hotel mewah terbaik di dunia lho. Salah satunya adalah Mandapa ini. Untuk menginap di sini semalam, kamu perlu merogoh kocek mulai dari Rp 7 jutaan.</item>
+        <item>Masih di Ubud, Bali, selanjutnya ada Komaneka at Tanggayuda. Suasana asri Ubud ditambah kemewahan yang diberikan oleh hotel ini bisa bikin liburan makin berkesan. Untuk menginap di sini kamu perlu membayar Rp 4,3 jutaan per malam.</item>
+        <item>Ingin berbulan madu di Santorini dan sekitarnya? Cobalah ke hotel bintang 5 satu ini. Dengan pemandangan laut yang romantis. Harga per malamnya sekitar Rp 17 jutaan.</item>
+        <item>Hotel mewah selanjutnya ada di London, UK. Kamu yang ingin menginap di hotel ini perlu mengeluarkan Rp 8 juta per malam.</item>
+        <item>Hotel mewah di Roma ini per malamnya mulai dari Rp 9,4 jutaan. Jika ingin merasakan pengalaman menginap dengan kemewahan yang ditawarkan, hotel ini bisa jadi pilihanmu.</item>
+        <item>Ingin berlibur ke Barcelona sekaligun main ke markas FCB, Camp Nou? Hotel ini bisa jadi pilihanmu untuk menginap. Dihargai Rp 7,2 juta per malam, kamu bisa tidur dan menikmati kemawahan yang ditawarkan.</item>
+        <item>Ingin liburan plus menginap di hotel yang mewah di India? Menginaplah di The Oberoi Vanyavilas. Selain kemewahan pelayanannya, kamu juga akan merasakan suasana India yang begitu kental dengan arsitektur hotel yang India banget. Mulai Rp 5 juta per malam, kamu sudah bisa menginap di sini.</item>
+        <item>Ingin melihat menara Eiffel dari balkon kamar? Menginaplah di hotel mewah terbaik di dunia ini. Nuansa hotel yang klasik juga menambah pengalaman kunjunganmu di Paris.Kamu perlu merogoh kocek Rp 18 juta untuk menginap di sini per malam</item>
+    </string-array>
+
+    <array name="image">
+        <item>@drawable/baros_maldives</item>
+        <item>@drawable/riad_kheirredine</item>
+        <item>@drawable/mandapa</item>
+        <item>@drawable/komaneka</item>
+        <item>@drawable/andronis_luxury</item>
+        <item>@drawable/the_beaumont</item>
+        <item>@drawable/place_roma</item>
+        <item>@drawable/the_serras</item>
+        <item>@drawable/the_oberoi</item>
+        <item>@drawable/la_serve_paris</item>
+
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_booking">Booking</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_history">History</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="see_all">See all</string>
+    <string name="lable_name">Name</string>
+    <string name="lable_address">Address</string>
+    <string name="popular">Popular</string>
+    <string name="mega_matra">Mega Matra</string>
+    <string name="ghurfati">Ghurfati</string>
+    <string name="avia_residence">Avia Residence</string>
+    <string name="merlynn_park">Merlynn Park</string>
+    <string name="sunlake">Sunlake</string>
+    <string name="hollywod">Hollywod</string>
+    <string name="harlys_residence">Harlys Residence</string>
+    <string name="maharadja">Maharadja</string>
+</resources>

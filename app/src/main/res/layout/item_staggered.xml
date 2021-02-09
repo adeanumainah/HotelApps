@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.cardview.CircularRevealCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_16dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fm_staggered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/bg_white">
+
+                <ImageView
+                    android:id="@+id/iv_staggered_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hotel1" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_staggered_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/_5dp"
+                android:layout_marginEnd="@dimen/_5dp"
+                android:text="@string/lable_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_staggered_address"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:fabSize="mini"
+            app:layout_anchor="@id/fm_staggered"
+            app:srcCompat="@drawable/ic_favorite_border" />
+
+
+        <TextView
+            android:id="@+id/tv_staggered_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fm_staggered"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/lable_address"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_staggered_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_staggered_address"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="none"
+            android:maxLines="2"
+            android:text="@string/desc"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</com.google.android.material.circularreveal.cardview.CircularRevealCardView>

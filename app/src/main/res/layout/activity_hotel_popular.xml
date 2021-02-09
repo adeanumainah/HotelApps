@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HotelPopularActivity">
+
+
+    <TextView
+        android:id="@+id/tv_title_popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/_24dp"
+        android:padding="@dimen/_5dp"
+        android:text="@string/popular"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="@dimen/_30dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_24dp"
+        android:padding="@dimen/_5dp"
+        android:src="@drawable/ic_home" />
+
+    <HorizontalScrollView
+        android:id="@+id/hs_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_popular"
+        android:layout_marginTop="@dimen/_20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5dp">
+
+            <TextView
+                android:id="@+id/tv_category_mega_matra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/mega_matra"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_ghurfati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/ghurfati"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_avia_residence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/avia_residence"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_merlynn_park"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/merlynn_park"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_sunlake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/sunlake"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_hollywod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/hollywod"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_harlys_residence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/harlys_residence"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+            <TextView
+                android:id="@+id/tv_category_maharadja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/_4dp"
+                android:text="@string/maharadja"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_all_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hs_category"
+        android:layout_marginTop="@dimen/_16dp"
+        android:padding="@dimen/_8dp" />
+
+</RelativeLayout>
